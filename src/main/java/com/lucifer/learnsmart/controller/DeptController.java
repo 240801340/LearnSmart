@@ -16,6 +16,7 @@ public class DeptController {
 
     @Autowired
     private DeptService deptService;
+
     @GetMapping("/depts")
     public Result list(){
         log.info("查询到全部部门数据");
